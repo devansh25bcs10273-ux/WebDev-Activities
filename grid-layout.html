@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+    <style>
+        .grid{
+            border: 2px solid black;
+            background-color:lightcoral;
+            /* height: 100px; / /was making the heigth same/
+            /* width: 100px; / /was making the width same/
+        }
+        .parent{
+            background-color: antiquewhite;
+            /* display: flex;only one line */
+            display: grid;
+            margin: auto;
+            width: 800px;
+            height: 400px;
+            grid-template-columns: repeat(3,1fr);
+            grid-template-rows: repeat(3,1fr);
+            /* grid-row-gap: 10px;
+            grid-column-gap: 10px; */
+            padding: 20px;
+
+        }
+        #box1{
+            grid-column: 1/4;
+            /* grid-row: 1/3; */
+        }
+        #box2{
+
+            grid-row: 2/4;
+        }
+        #box3{
+            grid-row: 2/3;
+            margin-left: 5px;
+            margin-right: 5px;
+        }
+        #box4{
+            grid-row: 3/4;
+            margin-left: 5px;
+            margin-right: 5px;
+
+        }
+        #box5{
+            grid-row: 2/4;
+      
+
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <div class="grid" id="box1"></div>
+        <div class="grid" id="box2"></div>
+        <div class="grid" id="box3"></div>
+        <div class="grid" id="box4"></div>
+        <div class="grid" id="box5"></div>    
+    </div>
+    
+</body>
+</html>
